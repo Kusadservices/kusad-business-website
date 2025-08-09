@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - My Business</title>
+     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <nav>
     <div class="logo">My Business</div>
     <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html" class="active">About Us</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
+        <li class="nav_item"><a href="index.html" class="nav_link">Home</a></li>
+        <li class="nav_item"><a href="about.html" class="nav_link active">About Us</a></li>
+        <li class="nav_item"><a href="services.html" class="nav_link">Services</a></li>
+        <li class="nav_item"><a href="contact.html" class="nav_link">Contact Us</a></li>
     </ul>
 </nav>
 
@@ -22,6 +26,28 @@
     <h1>About Us</h1>
     <p>We are a team of passionate professionals dedicated to providing creative, strategic, and impactful solutions for businesses of all sizes.</p>
 </div>
+     <main>
+        <section class="page-hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/about.png');">
+            <div class="container">
+                <h1>About Kusad Business</h1>
+                <p>Our story, mission, and values</p>
+            </div>
+        </section>
+
+        <section class="about section-padding">
+            <div class="container">
+                <div class="about__content">
+                    <div class="about__text">
+                        <h2>Our Story</h2>
+                        <p>Founded in 2025, kusad began as a small team of business consultants passionate about helping companies adapt to the digital age. Today, we've grown into a full-service business solutions provider with clients across multiple industries.</p>
+                        <p>Our journey has been marked by continuous learning, innovation, and a commitment to delivering measurable results for our clients.</p>
+                    </div>
+                    <div class="about__img">
+                        <img src="images/image of an about us page of a website.jpg" alt="Our team working together">
+                    </div>
+                </div>
+            </div>
+        </section>
 
 <footer class="footer">
             <div class="container">
@@ -55,3 +81,4 @@
     <Script src="script.js"></Script>
 </body>
 </html>
+
